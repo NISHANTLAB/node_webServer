@@ -1,0 +1,30 @@
+body{
+    color: darkblue;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.main-content{
+    flex-grow: 1;
+}
+header{
+    margin-top: 16px;
+    margin-bottom: 50px;
+}
+h1{
+    font-size: 60px;
+    margin-bottom: 16px;
+}
+
+header a{
+    color: cadetblue;
+    margin-right: 16px;
+}
+
+.styling{
+    width: 300px;
+}
