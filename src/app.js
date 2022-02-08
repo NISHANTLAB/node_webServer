@@ -1,6 +1,8 @@
 const express=require('express');
 const app=express();
 const path=require('path');
+
+port =process.env.PORT || 4000
 //require hbs because we add partials
 const hbs=require('hbs');
 const res = require('express/lib/response');
@@ -71,6 +73,6 @@ app.get('*',(req,res)=>{
     })
 })
 
-app.listen(4000,()=>{
-    console.log(`Server is running on 4000`);
+app.listen(port,()=>{
+    console.log(`Server is running on :${port}`);
 })
